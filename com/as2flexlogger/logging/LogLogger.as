@@ -24,10 +24,10 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.*;
-import com.alechill.logging.errors.*;
+import com.as2flexlogger.logging.*;
+import com.as2flexlogger.logging.errors.*;
 
-class com.alechill.logging.LogLogger extends AbstractLogger implements ILogger {
+class com.as2flexlogger.logging.LogLogger extends AbstractLogger implements ILogger {
 	
 	private var _listeningTo:Array = new Array();
 	

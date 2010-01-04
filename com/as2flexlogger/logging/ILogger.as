@@ -24,9 +24,9 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.events.IEventDispatcher;
+import com.as2flexlogger.events.IEventDispatcher;
 
-interface com.alechill.logging.ILogger extends IEventDispatcher {
+interface com.as2flexlogger.logging.ILogger extends IEventDispatcher {
 	
 	// get / set methods cannot be defined in interfaces in AS2... 
 	// so will be implemented in abstract class instead

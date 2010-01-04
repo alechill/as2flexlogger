@@ -24,13 +24,13 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.targets.LineFormattedTarget;
-import com.alechill.utils.Delegate;
+import com.as2flexlogger.logging.targets.LineFormattedTarget;
+import com.as2flexlogger.utils.Delegate;
 import mx.net.LocalConnection;
 import mx.events.StatusEvent;
 import mx.events.SecurityErrorEvent;
 
-class com.alechill.logging.targets.MiniDebugTarget extends LineFormattedTarget {
+class com.as2flexlogger.logging.targets.MiniDebugTarget extends LineFormattedTarget {
 	
 	private var _connection:String;
 	

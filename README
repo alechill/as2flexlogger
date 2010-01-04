@@ -1,0 +1,10 @@
+as2flexlogger ( http://github.com/alechill/as2flexlogger )
+
+
+as2flexlogger is an ActionScript2 port of the Flex logging API. 
+
+Use the same Flex logging API you are familiar when working on projects which rely on ActionScript 2, targeting Flash Lite for example.
+
+
+Code is distributed in accordance to the Mozilla Public License Version 1.1 under which the Adobe Flex SDK is licensed.
+Files which are not derived from existing Flex SDK code are distributed under the same Mozilla Public License Version 1.1

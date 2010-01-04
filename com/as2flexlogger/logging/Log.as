@@ -24,11 +24,11 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.*;
-import com.alechill.logging.targets.*;
-import com.alechill.logging.errors.*;
+import com.as2flexlogger.logging.*;
+import com.as2flexlogger.logging.targets.*;
+import com.as2flexlogger.logging.errors.*;
 
-class com.alechill.logging.Log {
+class com.as2flexlogger.logging.Log {
 	
 	private static var NONE:Number = 2147483647;
 	

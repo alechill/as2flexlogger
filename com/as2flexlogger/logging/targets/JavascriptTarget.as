@@ -24,10 +24,10 @@
  * Logging to javascript function
  */
 
-import com.alechill.logging.targets.LineFormattedTarget;
+import com.as2flexlogger.logging.targets.LineFormattedTarget;
 import flash.external.ExternalInterface;
 
-class com.alechill.logging.targets.JavascriptTarget extends LineFormattedTarget {
+class com.as2flexlogger.logging.targets.JavascriptTarget extends LineFormattedTarget {
 	
 	public function JavascriptTarget(externalMethod:String){
 		super();

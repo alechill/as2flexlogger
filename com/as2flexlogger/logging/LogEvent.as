@@ -24,10 +24,10 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.events.Event;
-import com.alechill.logging.LogEventLevel;
+import com.as2flexlogger.events.Event;
+import com.as2flexlogger.logging.LogEventLevel;
 
-class com.alechill.logging.LogEvent extends Event {
+class com.as2flexlogger.logging.LogEvent extends Event {
 	
 	public static var LOG:String = 'log';
 	

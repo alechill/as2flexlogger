@@ -24,11 +24,11 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.*;
-import com.alechill.logging.errors.*;
-import com.alechill.utils.Delegate;
+import com.as2flexlogger.logging.*;
+import com.as2flexlogger.logging.errors.*;
+import com.as2flexlogger.utils.Delegate;
 
-class com.alechill.logging.AbstractTarget implements ILoggingTarget {
+class com.as2flexlogger.logging.AbstractTarget implements ILoggingTarget {
 	
 	private var _delegatedLogHandler:Function;
 	

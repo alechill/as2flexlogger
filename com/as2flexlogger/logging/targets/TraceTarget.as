@@ -24,9 +24,9 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.targets.LineFormattedTarget;
+import com.as2flexlogger.logging.targets.LineFormattedTarget;
 
-class com.alechill.logging.targets.TraceTarget extends LineFormattedTarget {
+class com.as2flexlogger.logging.targets.TraceTarget extends LineFormattedTarget {
 	
 	public function TraceTarget(){
 		super();

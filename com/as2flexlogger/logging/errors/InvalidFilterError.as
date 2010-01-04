@@ -24,7 +24,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-class com.alechill.logging.errors.InvalidFilterError extends Error {
+class com.as2flexlogger.logging.errors.InvalidFilterError extends Error {
 	
 	public function InvalidFilterError(message:String){
 		super(message);

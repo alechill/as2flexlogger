@@ -24,7 +24,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-class com.alechill.logging.LogEventLevel {
+class com.as2flexlogger.logging.LogEventLevel {
 	
 	public static var ALL:Number = 0;
 	

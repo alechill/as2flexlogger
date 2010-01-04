@@ -24,9 +24,9 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.ILogger;
+import com.as2flexlogger.logging.ILogger;
 
-interface com.alechill.logging.ILoggingTarget {
+interface com.as2flexlogger.logging.ILoggingTarget {
 	
 	// get / set methods cannot be defined in interfaces in AS2... 
 	// so will be implemented in abstract class instead

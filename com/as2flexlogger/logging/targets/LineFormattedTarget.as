@@ -24,9 +24,9 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import com.alechill.logging.*;
+import com.as2flexlogger.logging.*;
 
-class com.alechill.logging.targets.LineFormattedTarget extends AbstractTarget {
+class com.as2flexlogger.logging.targets.LineFormattedTarget extends AbstractTarget {
 	
 	public var fieldSeparator:String = " ";
 	

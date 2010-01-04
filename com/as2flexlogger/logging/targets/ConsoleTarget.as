@@ -24,10 +24,10 @@
  * Logging to javascript console using the console's corresponding log levels 
  */
 
-import com.alechill.logging.LogEventLevel;
-import com.alechill.logging.targets.JavascriptTarget;
+import com.as2flexlogger.logging.LogEventLevel;
+import com.as2flexlogger.logging.targets.JavascriptTarget;
 
-class com.alechill.logging.targets.ConsoleTarget extends JavascriptTarget {
+class com.as2flexlogger.logging.targets.ConsoleTarget extends JavascriptTarget {
 	
 	public function ConsoleTarget(){
 		super();
