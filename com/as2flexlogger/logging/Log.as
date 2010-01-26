@@ -50,13 +50,13 @@ class com.as2flexlogger.logging.Log {
 		
 		if(_loggers[category] == undefined){
 			_loggers[category] = new LogLogger(category);
-		}
-		
-		var target:AbstractTarget;
-		for(var i:Number = 0; i < _targets.length; i++){
-			target = _targets[i];
-			if( categoryMatchInFilterList(category, target.filters) ){ 
-				target.addLogger(_loggers[category]);
+			
+			var target:AbstractTarget;
+			for(var i:Number = 0; i < _targets.length; i++){
+				target = _targets[i];
+				if( categoryMatchInFilterList(category, target.filters) ){ 
+					target.addLogger(_loggers[category]);
+				}
 			}
 		}
 		
